@@ -6,7 +6,7 @@ mudule ahb_top(
   input [1:0]  htrans;
   input [31:0] hwdata;
   input        hwrite;
-  input [31:0] hrata;
+  output [31:0] hrata;
   output        hready;
   output        hresp;
 );
